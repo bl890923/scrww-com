@@ -1699,7 +1699,7 @@
                                                         var p = t("#wpcom-video, .j-wpcom-video, .wp-block-video video");
                                                         if (p.length)
                                                         {
-                                                            t.getScript("http://img6.dfco.cn/scrww/skcms/js/plyr.min.js", function()
+                                                            t.getScript("http://img8.dfco.cn/scrww/skcms/js/plyr.min.js", function()
                                                             {
                                                                 t("#wpcom-video").length && new Plyr("#wpcom-video", {
                                                                     update: !0,
@@ -1719,7 +1719,7 @@
                                                                     o.search(/(\.m3u8|m3u8\?)/i) > -1 && e.push(i)
                                                                 }), e.length)
                                                                 {
-                                                                    t.getScript("http://img6.dfco.cn/scrww/skcms/js/hls.min.js", function()
+                                                                    t.getScript("http://img8.dfco.cn/scrww/skcms/js/hls.min.js", function()
                                                                     {
                                                                         for (var a in e)
                                                                             if (Hls.isSupported())
@@ -1934,7 +1934,7 @@
                                                                                 n = t("meta[name=description]").attr("content");
                                                                             n = n || e.desc;
                                                                             var r = document.createElement("script");
-                                                                            r.src = "http://img6.dfco.cn/scrww/skcms/js/jweixin-1.2.0.js",
+                                                                            r.src = "http://img8.dfco.cn/scrww/skcms/js/jweixin-1.2.0.js",
                                                                             r.onload = function()
                                                                             {
                                                                                 window.wx.config({
